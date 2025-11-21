@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btn_start_logging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Logging"
+        android:padding="12dp"
+        android:background="@color/btn_default"
+        android:textColor="@color/btn_text"/>
+
+    <TextView
+        android:id="@+id/tvHeartRate"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="Program Start"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_stop_logging"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/btn_default"
+        android:text="Stop Logging"
+        android:textColor="@color/btn_text" />
+
+</LinearLayout>
